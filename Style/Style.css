@@ -71,6 +71,14 @@
   justify-content: space-around;
   padding: 5%;
 }
+
+.animate__animated animate__zoomIn{
+  animation-duration: 2s;
+  animation-timing-function: ease-out;
+  animation-iteration-count: none;
+  animation-fill-mode: backwards;
+}
+
 /* ------------------------SECCION 1------------------------------ */
 .section1 {
   grid-area: section1;
